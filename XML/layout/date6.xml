@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background6"
+    android:orientation="vertical"
+    android:gravity="center|center_horizontal" >
+
+        <CalendarView
+            android:id="@+id/calendarView1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12.82" />
+
+     <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:weightSum="100" 
+            android:gravity="center|center_horizontal">
+
+            <Button
+                android:id="@+id/bHome"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="18"
+                android:background="@drawable/home4" />
+
+            <Button
+                android:id="@+id/bProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="18"
+                android:background="@drawable/profile4" />
+
+            <Button
+                android:id="@+id/bDate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="18"
+                android:background="@drawable/date4" />
+
+            <Button
+                android:id="@+id/bOptions"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="18"
+                android:background="@drawable/settings4" />
+        </LinearLayout>
+
+
+</LinearLayout>

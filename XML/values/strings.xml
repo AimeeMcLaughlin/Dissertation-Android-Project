@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PictureHealthy</string>
+    <string name="action_settings">Settings</string>
+    <string name="APP_ID">232687396910842</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Hello</string>  
+    <string name="title_facebook_login">Facebook</string>
+    <string name="proWrites">Program Writes here</string>   
+
+    
+    
+    
+    
+    <color name="grey">#c1c1c1</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="cyan">#34b5e5</color>
+    <color name="darkgrey">#747474</color>
+    <color name="plumpurple">#5e5782</color>
+    <color name="green">#407857</color>
+    <color name="orange">#e4ac34</color>
+  
+    <color name="pinky">#fbc79f</color>
+  
+</resources>

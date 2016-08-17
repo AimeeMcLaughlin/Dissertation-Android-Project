@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/picturegridview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    android:gravity="center|center_horizontal" >
+
+    <TextView
+        android:id="@+id/TextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:shadowColor="@color/darkgrey"
+        android:shadowDx="2"
+        android:shadowRadius="2.5"
+        android:text="TextView"
+        android:textColor="@color/cyan"
+        android:textColorHint="@color/cyan"
+        android:textSize="35sp"
+        android:textStyle="bold" 
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/textdate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:layout_weight="0.70"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+     <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            android:gravity="center|center_horizontal" >
+
+            <Button
+                android:id="@+id/bHome"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="18"
+                android:background="@drawable/homebutton" />
+
+            <Button
+                android:id="@+id/bProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="18"
+                android:background="@drawable/profilebutton" />
+
+            <Button
+                android:id="@+id/bDate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="18"
+                android:background="@drawable/datebutton" />
+
+            <Button
+                android:id="@+id/bOptions"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="18"
+                android:background="@drawable/settingsbutton" />
+        </LinearLayout>
+
+
+</LinearLayout>
